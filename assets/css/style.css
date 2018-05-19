@@ -7,6 +7,7 @@
 }
 
 .nav-container {
+
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +50,11 @@
 .nav-buttons {
     float: left;
     position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.logo .logo-initials {
+    font-size: 15px;
+
 }
