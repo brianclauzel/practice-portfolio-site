@@ -1,30 +1,40 @@
-html {
-    box-sizing: border-box;
-    display: block;
-}
-
 .body {
-    border-left: 3px solid  rgb(65, 57, 57);
-    border-right: 3px solid  rgb(65, 57, 57);
     border: 3px solid  rgb(65, 57, 57) ;
     height: 100%;
     width: 100%;
-    box-sizing: inherit;
-    display: block;
 }
 
 .nav-container {
     padding-left: 2em;
     padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
 }
 
 .logo {
     border: 3px solid rgb(65, 57, 57);
     height: 50px;
     width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: visible;
 }
 
 .logo .logo-initials {
     font-size: 15px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    left: 25%;
+    top: 25%; 
+}
+
+
+.nav {
+    padding-top: 4em;
+    padding-bottom: 4em;
 
 }
