@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-.body {
-    border: 3px solid  rgb(65, 57, 57) ;
-    height: 100%;
-    width: 100%;
-=======
 * {
     box-sizing: border-box;
 }
@@ -27,38 +21,22 @@ a {
 li a {
     font-family: 'Song Myung', serif;
     line-height: 1.25em;
->>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 }
 
 
 .nav-container {
-<<<<<<< HEAD
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    
- 
-=======
     position: relative;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
     height: 200px;
     width: 100%;
->>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 }
 
 .logo {
     position: absolute;
     border: 3px solid rgb(65, 57, 57);
     width: 50px;
-<<<<<<< HEAD
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    overflow: visible;
-=======
     height: 50px;
     display: inline-block;
     vertical-align: middle;
@@ -67,13 +45,13 @@ li a {
 
 .logo-initials {
     position: absolute;
-    font-size: 13px;
+    font-size: 17px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
     color:rgb(65, 57, 57);
-    font-family: 'Merriweather', serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .button-container {
@@ -97,24 +75,10 @@ li a {
     color:  rgb(65, 57, 57);
     font-weight: 200;
     font-size: 20px;
->>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 }
 
 .logo .logo-initials {
     font-size: 15px;
-<<<<<<< HEAD
-    position: absolute;
-    text-align: center;
-    display: block;
-    left: 25%;
-    top: 25%; 
-}
-
-
-.nav {
-    padding-top: 4em;
-    padding-bottom: 4em;
-=======
 }
 
 .main-nav {
@@ -128,15 +92,39 @@ li a {
     margin-right: auto;
     width: 80%;
 }
- .intro-container {
+
+.intro-container {
      font-size: 30px;
      padding-left: 15px;
      padding-right: 15px;
      padding-bottom: 20px;
      font-family: 'Song Myung', serif;
  }
->>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 
- .intro-1 {
-     
- }
+.image-container {
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.about-h1, .skills-h1 {
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.about-p, .front-end-p, .back-end-p, .design-p {
+    margin-bottom: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
+
+.footer-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
