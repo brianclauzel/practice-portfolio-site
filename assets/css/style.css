@@ -1,30 +1,108 @@
+<<<<<<< HEAD
 .body {
     border: 3px solid  rgb(65, 57, 57) ;
     height: 100%;
     width: 100%;
+=======
+* {
+    box-sizing: border-box;
 }
 
+body {
+    
+    border: 5px solid rgb(65, 57, 57);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: initial;
+    text-decoration-style: initial;
+    text-decoration-line: none;
+    color: rgb(65, 57, 57);
+}
+
+li a {
+    font-family: 'Song Myung', serif;
+    line-height: 1.25em;
+>>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
+}
+
+
 .nav-container {
+<<<<<<< HEAD
     padding-left: 2em;
     padding-right: 2em;
     margin-left: auto;
     margin-right: auto;
     
  
+=======
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    height: 200px;
+    width: 100%;
+>>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 }
 
 .logo {
+    position: absolute;
     border: 3px solid rgb(65, 57, 57);
-    height: 50px;
     width: 50px;
+<<<<<<< HEAD
     display: inline-block;
     vertical-align: middle;
     position: relative;
     overflow: visible;
+=======
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: visible;
+}
+
+.logo-initials {
+    position: absolute;
+    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color:rgb(65, 57, 57);
+    font-family: 'Merriweather', serif;
+}
+
+.button-container {
+    padding-top: 1.5em;
+    /* width: 70%; */
+    height: 20px;
+    /* float: right; */
+    /* display: inline-block;
+    vertical-align: middle; */
+    /* position: absolute; */
+}
+
+.nav-buttons {
+    /* position: absolute; */
+    height: 40px;
+    width: 65px;
+    background: white;
+    float: left;
+    margin-left: 35px;
+    margin-right: 20px;
+    color:  rgb(65, 57, 57);
+    font-weight: 200;
+    font-size: 20px;
+>>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
 }
 
 .logo .logo-initials {
     font-size: 15px;
+<<<<<<< HEAD
     position: absolute;
     text-align: center;
     display: block;
@@ -36,5 +114,29 @@
 .nav {
     padding-top: 4em;
     padding-bottom: 4em;
-
+=======
 }
+
+.main-nav {
+    /* position: absolute; */
+    float: right;
+    display: inline-block; 
+}
+
+.home-content-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+ .intro-container {
+     font-size: 30px;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 20px;
+     font-family: 'Song Myung', serif;
+ }
+>>>>>>> 624f23bdc6ec127584397e490f4f37c81c3b7a6d
+
+ .intro-1 {
+     
+ }
